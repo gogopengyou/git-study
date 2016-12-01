@@ -1,0 +1,17 @@
+git clone https://github.com/gogopengyou/git-study.git
+
+git status
+git config --system alias.st status
+git config --get user.name
+git log
+
+git add *
+git commit -m "first commit."
+git commit --amend 
+
+git init
+git remote add origin https://github.com/gogopengyou/git-study.git
+git push origin master
+git pull origin master
+
+
