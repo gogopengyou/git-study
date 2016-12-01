@@ -25,3 +25,5 @@ git diff --cached #暂存区(add) vs 版本库
 
 git stash
 git checkout
+
+tips:direct commit when all modified.
