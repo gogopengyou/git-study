@@ -5,6 +5,9 @@ git config --system alias.st status
 git config --get user.name
 git log
 
+git config --global user.name xxx
+git config --global user.email xxx
+
 git add *
 git commit -m "first commit."
 git commit --amend 
@@ -13,5 +16,11 @@ git init
 git remote add origin https://github.com/gogopengyou/git-study.git
 git push origin master
 git pull origin master
+
+git diff #工作区 vs 暂存区(add)
+git diff HEAD #工作区 vs 版本库
+git diff master #工作区 vs 版本库
+git diff origin master #工作区 vs 远端版本库
+git diff --cached #暂存区(add) vs 版本库
 
 
