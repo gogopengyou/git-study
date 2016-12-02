@@ -30,10 +30,10 @@ tips:direct commit when all modified.
 
 git log --oneline
 
-git reset xxx_path
+git reset xxx_path (cancel add stage)
 git reflog  (sample: HEAD@{3})
-git reset --hard HEAD^
-git reset --mixed HEAD^ =>(default) git reset HEAD^
-The last three commits (HEAD, HEAD^, and HEAD~2)
+git reset --hard 版本号
+git reset --mixed 版本号 =>(default) git reset 版本号
+
 
 
