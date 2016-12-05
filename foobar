@@ -24,7 +24,9 @@ git diff origin master #工作区 vs 远端版本库
 git diff --cached #暂存区(add) vs 版本库
 
 git stash
-git checkout
+git checkout (切换分支)
+git merge (合并分支)
+git branch -v (查看当前分支)
 
 tips:direct commit when all modified.
 
