@@ -61,6 +61,12 @@ git status -sb
 git log --oneline --decorate
 
 
+git branch -a
+git branch xxx
+git merge xxx (切回主线合并)
+git branch -d xxx
 
+git push origin master --tags
+tip: tag只是一个快照并不能直接更改，但是可以基于该快照创建分支，然后合并到主干 git checkout -b branch_name tag_name
 
 
