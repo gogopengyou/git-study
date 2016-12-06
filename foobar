@@ -58,6 +58,8 @@ git rm
 git commit~
 
 git status -sb
+git log --oneline --decorate
+
 
 
 
