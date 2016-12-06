@@ -28,8 +28,6 @@ git checkout (切换分支)
 git merge (合并分支)
 git branch -v (查看当前分支)
 
-tips:direct commit when all modified.
-
 git log --oneline
 
 git reset xxx_path (cancel add stage)
@@ -42,6 +40,21 @@ HEAD
 HEAD^ <=> HEAD~1
 HEAD^^ <=> HEAD~2
 (attention: windows cmd '^^' <=> '^',git bash OK!)
+
+git stash list 
+git stash pop
+git stash apply
+
+git clean -nd
+git clean -fd
+
+git tag -m "xxx" tag_name
+git describe
+
+git rm
+git commit~
+
+git status -sb
 
 
 
