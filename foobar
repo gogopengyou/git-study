@@ -41,10 +41,13 @@ HEAD^ <=> HEAD~1
 HEAD^^ <=> HEAD~2
 (attention: windows cmd '^^' <=> '^',git bash OK!)
 
+WIP(woke in process.modified stashed. untracked file will not stash ~)
+tip:暂存区和工作区的变化都会被隐藏起来，如果隐藏的变化有更改进度将恢复失败，会提示提交后再恢复、合并
 git stash list 
 git stash pop
 git stash apply
 
+tip: clean untracked file 
 git clean -nd
 git clean -fd
 
