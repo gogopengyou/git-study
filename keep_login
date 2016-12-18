@@ -1,0 +1,2 @@
+git config --add credential.helper store
+
