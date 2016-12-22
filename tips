@@ -25,3 +25,8 @@ git push --all origin
 git push --force origin
 导致在远程主机产生一个”非直进式”的合并(non-fast-forward merge)。除非你很确定要这样做，否则应该尽量避免使用–force选项。
 
+cherry-pick ~
+rebase ~
+
+
+
