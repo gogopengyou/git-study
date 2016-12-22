@@ -7,3 +7,5 @@ git commit -m "first commit"
 git remote add origin https://github.com/gogopengyou/hiveql-reviews.git
 git push -u origin master
 
+other:
+git commit -m "xxx" --author="xxx <xxx@xxx.xxx>"
