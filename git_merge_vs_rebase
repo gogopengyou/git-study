@@ -1,0 +1,5 @@
+merge:将分支commit合并到主干
+rebase：将主干基于分支commit重定义（相当于直接重置到某个节点）
+（rebase交互模式可以对分支commit进行重排乃至合并~）
+cherry-pick:可以选择分支某次commit合并到主干
+
