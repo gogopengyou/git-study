@@ -1,4 +1,4 @@
-…or create a new repository on the command line
+...…or create a new repository on the command line
 
 echo "# hiveql-reviews" >> README.md
 git init
@@ -7,3 +7,5 @@ git commit -m "first commit"
 git remote add origin https://github.com/gogopengyou/hiveql-reviews.git
 git push -u origin master
 
+other:
+git commit -m "xxx" --author="xxx <xxx@xxx.xxx>"
